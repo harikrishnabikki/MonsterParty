@@ -14,6 +14,10 @@
 		EFF29B5721167A12004E089C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF29B5521167A12004E089C /* LaunchScreen.storyboard */; };
 		EFF29B6221167A12004E089C /* MonsterPartyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF29B6121167A12004E089C /* MonsterPartyTests.swift */; };
 		EFF29B6D21167A12004E089C /* MonsterPartyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF29B6C21167A12004E089C /* MonsterPartyUITests.swift */; };
+		EFF29B7B21167A76004E089C /* PartyListControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF29B7A21167A76004E089C /* PartyListControllerTableViewController.swift */; };
+		EFF29B7D21167A9D004E089C /* AddMonsterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF29B7C21167A9D004E089C /* AddMonsterController.swift */; };
+		EFF29B7F21167ABC004E089C /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF29B7E21167ABC004E089C /* Monster.swift */; };
+		EFF29B8121167AE3004E089C /* MonsterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF29B8021167AE3004E089C /* MonsterCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		EFF29B6821167A12004E089C /* MonsterPartyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonsterPartyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFF29B6C21167A12004E089C /* MonsterPartyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterPartyUITests.swift; sourceTree = "<group>"; };
 		EFF29B6E21167A12004E089C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFF29B7A21167A76004E089C /* PartyListControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyListControllerTableViewController.swift; sourceTree = "<group>"; };
+		EFF29B7C21167A9D004E089C /* AddMonsterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMonsterController.swift; sourceTree = "<group>"; };
+		EFF29B7E21167ABC004E089C /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
+		EFF29B8021167AE3004E089C /* MonsterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				EFF29B4C21167A11004E089C /* AppDelegate.swift */,
+				EFF29B7A21167A76004E089C /* PartyListControllerTableViewController.swift */,
+				EFF29B7C21167A9D004E089C /* AddMonsterController.swift */,
+				EFF29B7E21167ABC004E089C /* Monster.swift */,
+				EFF29B8021167AE3004E089C /* MonsterCell.swift */,
 				EFF29B4E21167A11004E089C /* ViewController.swift */,
 				EFF29B5021167A11004E089C /* Main.storyboard */,
 				EFF29B5321167A12004E089C /* Assets.xcassets */,
@@ -256,8 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFF29B8121167AE3004E089C /* MonsterCell.swift in Sources */,
+				EFF29B7F21167ABC004E089C /* Monster.swift in Sources */,
 				EFF29B4F21167A11004E089C /* ViewController.swift in Sources */,
 				EFF29B4D21167A11004E089C /* AppDelegate.swift in Sources */,
+				EFF29B7D21167A9D004E089C /* AddMonsterController.swift in Sources */,
+				EFF29B7B21167A76004E089C /* PartyListControllerTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
